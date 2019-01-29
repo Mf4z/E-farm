@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">E-farm</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_farmer__control__panel">Farmer Control Panel</string>
+    <string name="title_activity_trade__platform">Trade Platform</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string-array name="prod_type">
+        <item>Product type...</item>
+        <item>Perishable</item>
+        <item>Nonperishable</item>
+    </string-array>
+    <string name="title_activity_farmer_stroage_zone">Farmer Stroage Zone</string>
+
+
+    <string-array name="crop_list">
+        <item>Select Crop...</item>
+        <item>corn</item>
+        <item>wheat</item>
+    </string-array>
+
+    <string-array name="defectShape_list">
+        <item>Select Defect Shape...</item>
+        <item>circle</item>
+        <item>rectangle</item>
+        <item>round</item>
+        <item>irregular</item>
+    </string-array>
+
+    <string-array name="defectColor_list">
+        <item>Select Defect Color...</item>
+        <item>black</item>
+        <item>red</item>
+        <item>orange</item>
+        <item>brown</item>
+        <item>dark brown</item>
+        <item>light brown</item>
+        <item>yellow</item>
+        <item>gray</item>
+        <item>green</item>
+        <item>dark green</item>
+        <item>bright yellow</item>
+        <item>white</item>
+
+    </string-array>
+
+    <string-array name="defectLoc_list">
+        <item>Select Defect Location...</item>
+        <item>leaves</item>
+        <item>stem</item>
+        <item>root</item>
+    </string-array>
+
+    <string-array name="defectNat_list">
+        <item>Select Defect Nature...</item>
+        <item>spots</item>
+        <item>spores</item>
+        <item>patches</item>
+        <item>holes</item>
+        <item>halos</item>
+        <item>stripes</item>
+    </string-array>
+
+
+    <string-array name="defectAffSide_list">
+        <item>Select Where Defect Appears...</item>
+        <item>top</item>
+        <item>bottom</item>
+        <item>both</item>
+    </string-array>
+
+
+    <string-array name="defectArgg_list">
+        <item>Select Defect Arrangement...</item>
+        <item>linear</item>
+        <item>horizontal</item>
+        <item>vertical</item>
+        <item>parallel</item>
+    </string-array>
+
+
+
+    <string-array name="duration">
+        <item>Duration...</item>
+        <item>Day(s)</item>
+        <item>Week(s)</item>
+        <item>Month(s)</item>
+        <item>Year(s)</item>
+    </string-array>
+
+
+    <string-array name="default_space">
+        <item>Select space...</item>
+        <item>20 X 20 meters</item>
+        <item>40 X 20 meters</item>
+        <item>40 X 40 meters</item>
+        <item>50 X 50 meters</item>
+    </string-array>
+
+
+    <string-array name="tp_service">
+        <item>Select tranport option...</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+
+    <string name="title_activity_admin__control__panel">Admin Control Panel</string>
+    <string name="title_activity_admin_register_users__zone">User RegistrationZone</string>
+    <string name="title_activity_admin_view_users__zone">AdminViewUsers_Zone</string>
+    <string name="title_activity_admin_diagnosis__zone">AdminDiagnosis_Zone</string>
+    <string name="title_activity_organisation_control_panel">Organisation_controlPanel</string>
+    <string name="title_activity_org_storage_service__zone">OrgStorageService_Zone</string>
+
+
+</resources>

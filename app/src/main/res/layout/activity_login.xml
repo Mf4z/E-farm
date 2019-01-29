@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="emef4z.gmail.com.e_farm.Login"
+    >
+
+    <LinearLayout
+        android:id="@+id/activity_login2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/h2_bg"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_nobg" />
+
+        <TextView
+            android:id="@+id/userSignup_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="28dp"
+            android:drawableLeft="@drawable/ic_person_add_black_24dp"
+            android:onClick="signupAsUser"
+            android:text="Signup as farmer"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorAshy"
+            android:textStyle="bold" />
+
+        <TextView
+
+                android:id="@+id/signupOrg_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="28dp"
+            android:drawableLeft="@drawable/ic_business_black_24dp"
+            android:onClick="signupAsOrganisation"
+            android:text="Signup as organisation"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorAshy"
+            android:textStyle="bold" />
+
+
+
+
+        <EditText
+
+            android:id="@+id/username_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_account_box_black_24dp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColorHint="@color/colorGreen"
+            android:textStyle="bold" />
+
+        <EditText
+
+            android:id="@+id/pass_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_https_black_24dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColorHint="@color/colorGreen"
+            android:textStyle="bold" />
+
+
+        <Button
+
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pass_editText"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorGrey"
+            android:onClick="loginMethod"
+            android:text="Login"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorGreen"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/forgotPass_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_error_black_24dp"
+            android:onClick="forgottenPass"
+            android:text="Forgot password?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorAshy"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>

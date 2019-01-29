@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="emef4z.gmail.com.e_farm.about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/h4_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/admin_username_tracker"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/farmer_username_tracker"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/organisation_tracker"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-farm"
+        android:textStyle="bold"
+        android:textColor="@color/colorSandHiglight"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <TextView
+        android:textColor="@color/colorSandHiglight"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Farm with the technological edge"
+        android:textStyle="italic"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:src="@drawable/logo_nobg"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A system that allows farmers diagnose their crops,get ideas of the diseases affecting their crops and their cures.It provides an online trading platform for farmers and provides links with storage facilities for agricultural products."
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorSandHiglight"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorSandHiglight"
+        android:text="Bsc. Csc.III_114"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSandHiglight"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Mf4z: 114-063061-11124"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorSandHiglight"
+        android:text="CB: 114-063061-11950"/>
+
+    <Button
+        android:background="@color/colorDarkGreen"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:textColor="@color/colorGrey"
+        android:onClick="Ok_Cancel_Method"/>
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/imageView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Organisation name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:id="@+id/orgname_tv_sto" />
+
+    <TextView
+        android:text="Org ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/orgname_tv_sto"
+        android:layout_toRightOf="@+id/orgname_tv_sto"
+        android:layout_toEndOf="@+id/orgname_tv_sto"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:id="@+id/orgID_tv_sto" />
+
+    <TextView
+        android:text="ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/orgID_tv_sto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/id_view" />
+
+    <TextView
+        android:text="Operational ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/perPrice_et_sto"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignLeft="@+id/orgname_tv_sto"
+        android:layout_alignStart="@+id/orgname_tv_sto" />
+
+    <TextView
+        android:text="Yea of Est."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nonPerPrice_et_sto"
+        android:layout_below="@+id/perPrice_et_sto"
+        android:layout_alignLeft="@+id/perPrice_et_sto"
+        android:layout_alignStart="@+id/perPrice_et_sto"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/maxW_et_sto"
+        android:layout_below="@+id/nonPerPrice_et_sto"
+        android:layout_alignLeft="@+id/nonPerPrice_et_sto"
+        android:layout_alignStart="@+id/nonPerPrice_et_sto" />
+
+    <TextView
+        android:text="Contact number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/minW_et_sto"
+        android:layout_below="@+id/maxW_et_sto"
+        android:layout_alignLeft="@+id/maxW_et_sto"
+        android:layout_alignStart="@+id/maxW_et_sto"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/maxS_et_sto"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/minW_et_sto"
+        android:layout_alignLeft="@+id/minW_et_sto"
+        android:layout_alignStart="@+id/minW_et_sto" />
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/minS_et_sto"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/maxS_et_sto"
+        android:layout_alignLeft="@+id/maxS_et_sto"
+        android:layout_alignStart="@+id/maxS_et_sto" />
+
+    <TextView
+        android:text="Role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tp_tv_sto"
+        android:layout_below="@+id/minS_et_sto"
+        android:layout_alignLeft="@+id/minS_et_sto"
+        android:layout_alignStart="@+id/minS_et_sto"
+        android:layout_marginTop="11dp" />
+</RelativeLayout>

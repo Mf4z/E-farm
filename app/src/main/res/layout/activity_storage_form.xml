@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="emef4z.gmail.com.e_farm.Storage_form">
+
+<LinearLayout
+    android:id="@+id/activity_storage_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    >
+
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:id="@+id/prod_name_et"
+            android:layout_marginBottom="16dp"/>
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/product_Type_sto"
+        android:layout_marginBottom="32dp"
+        android:entries="@array/prod_type"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Quantity"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/prod_qty_et"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Storage Duration"
+            android:id="@+id/prodDuration_et"/>
+
+    <Spinner
+        android:id="@+id/duration_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:entries="@array/duration">
+
+    </Spinner>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Specify Storage Space/ Select from below"
+            android:id="@+id/storage_space_et"/>
+
+    <Spinner
+        android:id="@+id/space_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:entries="@array/default_space">
+
+    </Spinner>
+
+
+
+    <Spinner
+        android:id="@+id/tp_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:entries="@array/tp_service">
+
+    </Spinner>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:onClick="storeProdInsertMethod"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit_btn_stfrm" />
+
+        <Button
+
+            android:text="Cancel"
+            android:onClick="storeProdcancelMethod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel_btn_stfrm"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+</ScrollView>

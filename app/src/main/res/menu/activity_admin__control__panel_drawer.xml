@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gotoDiagnosis"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="Diagnose" />
+        <item
+            android:id="@+id/nav_gotoTrade"
+            android:icon="@drawable/ic_compare_arrows_black_24dp"
+            android:title="Trade Zone" />
+
+        <item
+            android:id="@+id/nav_gotoAddUsers"
+            android:icon="@drawable/addusers_black_24dp"
+            android:title="Register Users" />
+
+        <item
+            android:id="@+id/nav_gotoViewUsers"
+            android:icon="@drawable/app_users_black_24dp"
+            android:title="View Users" />
+        <item
+            android:id="@+id/nav_viewAboutUs"
+            android:icon="@drawable/aboutus_black_24dp"
+            android:title="About us" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_AdminGotoLogout"
+                android:icon="@drawable/logout_24dp"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

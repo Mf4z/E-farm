@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="27dp"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="First Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:id="@+id/firstN_view" />
+
+    <TextView
+        android:text="Last Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_alignBaseline="@+id/firstN_view"
+        android:layout_alignBottom="@+id/firstN_view"
+        android:layout_toRightOf="@+id/firstN_view"
+        android:layout_toEndOf="@+id/firstN_view"
+        android:id="@+id/lastN_view" />
+
+    <TextView
+        android:text="Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignLeft="@+id/firstN_view"
+        android:layout_alignStart="@+id/firstN_view"
+        android:id="@+id/location_view" />
+
+    <TextView
+        android:text="Contact number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location_view"
+        android:layout_alignLeft="@+id/location_view"
+        android:layout_alignStart="@+id/location_view"
+        android:layout_marginTop="18dp"
+        android:id="@+id/cont_no_view" />
+
+    <TextView
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/maxS_et_sto"
+        android:layout_below="@+id/cont_no_view"
+        android:layout_alignLeft="@+id/cont_no_view"
+        android:layout_alignStart="@+id/cont_no_view" />
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:id="@+id/usern_view"
+        android:layout_below="@+id/maxS_et_sto"
+        android:layout_alignLeft="@+id/maxS_et_sto"
+        android:layout_alignStart="@+id/maxS_et_sto" />
+
+    <TextView
+        android:text="ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_view"
+        android:layout_alignBaseline="@+id/lastN_view"
+        android:layout_alignBottom="@+id/lastN_view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp" />
+
+    <TextView
+        android:text="Role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tp_tv_sto"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/usern_view"
+        android:layout_alignLeft="@+id/usern_view"
+        android:layout_alignStart="@+id/usern_view" />
+</RelativeLayout>
